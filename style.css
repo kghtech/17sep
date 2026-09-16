@@ -309,51 +309,7 @@ body {
 }
 
 
-/* =========================================================
-   MUSIC BUTTON
-========================================================= */
 
-.music-btn {
-    position: fixed;
-
-    top: 25px;
-    right: 25px;
-
-    width: 46px;
-    height: 46px;
-
-    border-radius: 50%;
-
-    border: 1px solid rgba(72, 190, 255, .35);
-
-    background: rgba(3, 13, 27, .75);
-
-    color: #6dd9ff;
-
-    z-index: 1000;
-
-    cursor: pointer;
-
-    backdrop-filter: blur(12px);
-
-    font-size: 18px;
-
-    box-shadow:
-        0 0 20px rgba(25, 139, 255, .12);
-
-    transition: .4s;
-}
-
-.music-btn:hover {
-    background: #087de1;
-
-    color: white;
-
-    box-shadow:
-        0 0 30px rgba(30, 160, 255, .5);
-
-    transform: rotate(10deg);
-}
 
 
 /* =========================================================
@@ -1000,6 +956,11 @@ body {
         0 0 10px rgba(60, 200, 255, .5);
 }
 
+.quote-close {
+    text-align: right;
+    margin-top: -15px;
+    margin-right: 10px;
+}
 
 /* =========================================================
    LOVE LETTER
